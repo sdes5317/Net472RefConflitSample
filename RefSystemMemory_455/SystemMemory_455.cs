@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RefSystemMemory_455
 {
@@ -11,7 +7,7 @@ namespace RefSystemMemory_455
     {
         public void RunTestWithRef()
         {
-            new Span<int>(new int[10]);
+            var res = new Span<int>();
         }
     }
 }

@@ -46,9 +46,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Memory">
-      <Version>4.5.5</Version>
-    </PackageReference>
+    <ProjectReference Include="..\RefSystemMemory_455\RefSystemMemory_455.csproj">
+      <Project>{08769717-ca99-416e-a231-c8104e45d5ca}</Project>
+      <Name>RefSystemMemory_455</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

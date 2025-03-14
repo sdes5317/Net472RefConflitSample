@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefSystemMemory_455", "RefS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefSystemMemory_454", "RefSystemMemory_454\RefSystemMemory_454.csproj", "{EA9CC939-0C80-45F6-97B8-82E334ED478D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net472NunitTestConflit", "Net472NunitTestConflit\Net472NunitTestConflit.csproj", "{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EA9CC939-0C80-45F6-97B8-82E334ED478D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9CC939-0C80-45F6-97B8-82E334ED478D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9CC939-0C80-45F6-97B8-82E334ED478D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

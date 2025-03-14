@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08769717-CA99-416E-A231-C8104E45D5CA}</ProjectGuid>
+    <ProjectGuid>{A7D7F2B5-0553-471B-AC2E-FD60EB14E105}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RefSystemMemory_455</RootNamespace>
-    <AssemblyName>RefSystemMemory_455</AssemblyName>
+    <RootNamespace>Net472NunitTestConflit</RootNamespace>
+    <AssemblyName>Net472NunitTestConflit</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,7 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,10 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SystemMemory_455.cs" />
+    <Compile Include="RunTest_With_Ref454_Ref455.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RefSystemMemory_454\RefSystemMemory_454.csproj">
+      <Project>{ea9cc939-0c80-45f6-97b8-82e334ed478d}</Project>
+      <Name>RefSystemMemory_454</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RefSystemMemory_455\RefSystemMemory_455.csproj">
+      <Project>{08769717-ca99-416e-a231-c8104e45d5ca}</Project>
+      <Name>RefSystemMemory_455</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit">
+      <Version>3.14.0</Version>
+    </PackageReference>
+    <PackageReference Include="NUnit3TestAdapter">
+      <Version>3.17.0</Version>
+    </PackageReference>
     <PackageReference Include="System.Memory">
       <Version>4.5.5</Version>
     </PackageReference>
